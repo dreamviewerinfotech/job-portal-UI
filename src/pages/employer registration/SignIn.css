@@ -1,0 +1,153 @@
+/* SignUp.css */
+
+
+h1 {
+  font-size: clamp(16px, 8vw, 38px);
+  font-weight: 600;
+  line-height: 50px;
+  text-decoration: NONE;
+  color: RGB(51, 51, 51);
+  text-align: LEFT;
+  text-transform: CAPITALIZE;
+  word-spacing: 0px;
+}
+
+/* input{
+  BOX-SHADOW: RGBA(201, 200, 200, 0.91)
+} */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullwidth {
+  grid-column: span 2;
+}
+
+.submit {
+  /* grid-column: ; */
+  width: 100%;
+  background-color: #000080;
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+select {
+  font-family: Rubik;
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  outline: none;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input,
+textarea {
+  margin: 30px;
+  width: 100%;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Optional: Add additional styling for form elements, such as borders, background, etc. */
+
+/* Add styling for focused input fields */
+input:focus {
+  outline: none;
+  border-color: dodgerblue;
+}
+
+.select-dropdown,
+.input-text {
+  /* width: calc(50% - 10px); */
+  /* padding: 10px; */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+option {
+  color: grey;
+}
+
+.email {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.applicant p {
+  color: #333333;
+  font-family: "RUBIK";
+  font-size: "16px";
+  line-height: "26px";
+  text-decoration: "none solid rgb(51, 51, 51)";
+  text-align: "left";
+  word-spacing: "0px";
+  background-color: "#FFFFFF";
+  background-position: "0% 0%";
+  color: "#333333";
+  height: "26px";
+  width: "349.2px";
+  position: "relative";
+  top: "0px";
+  bottom: "0px";
+  right: "0px";
+  left: "0px";
+  display: "block";
+  transform: "none";
+  transition: "all 0s ease 0s";
+  outline: "rgb(255, 0, 0) dashed 0.8px";
+  box-sizing: "border-box";
+}
+
+
+.applicant input,
+.applicant select {
+  /* Font & Text */
+  font-family: RUBIK;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 35px;
+  text-decoration: none solid rgb(128, 128, 128);
+  word-spacing: 0px;
+  
+
+  /* Color & Background */
+  background-color: #ffffff;
+  /* background-position: 0% 0%; */
+  color: #808080;
+
+  /* Box */
+  height: 48px;
+  width: 349.2px;
+  margin: 30px;
+  border: 1px solid #040382;
+  margin: 0 0 18px 0;
+  padding: 6px 12px 6px 12px;
+  max-width: 100%;
+
+  /* Positioning */
+  display: block;
+
+  /* Miscellaneous */
+  cursor: text;
+
+  /* Effects */
+  transform: none;
+  transition: box-shadow 0.2s ease 0s;
+  outline: rgb(128, 128, 128) none 0px;
+  box-sizing: border-box;
+  box-shadow: rgba(201, 200, 200, 0.91) 0px 2px 4px 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}

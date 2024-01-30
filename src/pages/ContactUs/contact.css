@@ -1,0 +1,134 @@
+.contactus .row-1 {
+    margin-bottom: 50px;
+}
+.contactus .row-1 .col {
+  padding: 0 15px;
+}
+.contactus .row-1 .col-a .buttons a {
+  display: block;
+  padding: 13px 31px;
+  margin-bottom: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--white);
+  background-color: var(--main-color);
+  border-radius: 4px;
+  transition: background-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contactus .row-1 .col-a .buttons a:hover {
+  background-color: var(--main-light-color);
+}
+.contactus .row-1 .col-a .card {
+  border-radius: 6px;
+  background-color: #fbfdff;
+  box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.12);
+  padding: 25px 23px;
+  margin-bottom: 50px;
+}
+.contactus .row-1 .col-a .card .card-heading {
+  padding: 8px 0;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #f0f0f0;
+}
+.contactus .row-1 .col-a .card .card-heading h3 {
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 42px;
+  color: var(--heading-color);
+}
+.contactus .row-1 .col-a .card .card-details ul li {
+    line-height: 26px;
+    padding: 8px 0;
+    color: #808080;;
+    border-bottom: 1px solid #f0f0f0;
+}
+.contactus .row-1 .col-a .card .card-details ul li span {
+    text-transform: uppercase;
+    color: var(--main-color);
+    letter-spacing: 1px;
+}
+.contactus .row-1 .col-b .form-heading {
+    background-color: #0b162a;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+.contactus .row-1 .col-b .form-heading h3 {
+    color: var(--white);
+}
+.contactus .row-1 .col-b .form-heading .image-container{
+    background-color: var(--white);
+    border-radius: 50%;
+    padding: 8px;
+    line-height: 0;
+    max-width: 34px;
+    margin-right: 10px;
+}
+.contactus .row-1 .col-b form {
+    box-shadow: 0 1px 16px 4px #d0d0d0;
+    background-color: var(--white);
+    padding: 15px;
+}
+.contactus .row-1 .col-b form input,
+.contactus .row-1 .col-b form textarea {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 12px;
+    line-height: 0;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #808080;
+    background-color: #fbfdff;
+    border: 1px solid #ccc;
+}
+.contactus .row-1 .col-b form textarea {
+    line-height: 21px;
+    resize: none;
+    margin-bottom: 15px;
+}
+.contactus .row-1 .col-b form input::placeholder,
+.contactus .row-1 .col-b form textarea::placeholder {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.contactus .row-1 .col-b form input:focus,
+.contactus .row-1 .col-b form textarea:focus {
+    color: black;
+    transition: box-shadow 0.2s !important;
+    opacity: 1;
+    border: none;
+    box-shadow: 0 1px 4px 0px rgba(0, 0, 0, 0.12);
+}
+.contactus .row-1 .col-b form button {
+    cursor: pointer;
+    display: flex;
+    border: 0;
+    line-height: 21px;
+    margin: 20px 0 16px auto;
+    padding: 11px 40px;
+    box-shadow: 0 4px 12px rgb(255 138 0 / 15%);
+    color: var(--white);
+    background-color: var(--main-color);
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.contactus .row-1 .col-b form button:hover {
+    background-color: var(--main-light-color);
+    border: 1px solid var(--main-light-color);
+    /* border: 1px solid #ffa500; */
+    /* color: #ffa500 */
+}

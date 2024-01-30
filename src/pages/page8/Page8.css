@@ -1,0 +1,74 @@
+.page8 {
+ 
+  align-items: center;
+  justify-content: end;
+  background-image: url("../../assets/images/employerImg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 380px;
+  width: 100vw;
+  margin-top: 24px;
+}
+
+.page8-first {
+  /* background-color: red; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page8-first img {
+  width: 70%;
+  object-fit: cover;
+  display: flex;
+}
+.page8-sec {
+  padding: 20px;
+  width: 50%;
+  /* background: blue; */
+}
+
+.page8-sec h1 {
+  font-size: 2vmax;
+  font-weight: 500;
+}
+
+.page8-sec h4 {
+  font-weight: normal;
+  color: #666;
+  line-height: 30px;
+}
+
+.page8 button {
+  background-color: #1e1bbc;
+  display: inline-block;
+  margin: 0;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 15px 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  white-space: nowrap;
+  margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+  .page8 {
+    flex-direction: column;
+    height: 500px;
+    background-size: cover;
+    background-position: -740px;
+  }
+  .page8-first {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .page8-sec {
+    width: 80%;
+  }
+}

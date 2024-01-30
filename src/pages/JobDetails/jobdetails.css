@@ -1,0 +1,183 @@
+.job_subHeader {
+  /* background-color: var(--main-color); */
+  padding: 30px 0;
+}
+.job_subHeader .row-1 .col h2 {
+  text-align: center;
+  color: var(--white);
+}
+/* jobdetails */
+.jobdetails {
+  margin: 15px 0;
+}
+.jobdetails .row-1 .col {
+  padding: 0 15px;
+}
+.jobdetails .row-1 .col-a .heading h2 {
+  color: var(--main-color);
+  font-size: 30px;
+  line-height: 1.3;
+}
+.jobdetails .row-1 .col-a .heading p {
+  line-height: 26px;
+}
+.jobdetails .row-1 .col-a h3 {
+  color: var(--heading-color);
+  font-size: 18px;
+}
+.jobdetails .row-1 .col-a .job_detail_point .row_job_detail_point {
+  background-color: #e1e1e1;
+  margin: 10px 0;
+  padding: 20px;
+}
+.jobdetails .row-1 .col-a .job_detail_point .row_job_detail_point .col {
+  padding: 0 15px;
+}
+.jobdetails .row-1 .col-a .job_detail_point .row_job_detail_point ul li {
+  line-height: 26px;
+  padding: 5px 0;
+  text-transform: capitalize;
+}
+.jobdetails .row-1 .col-a .job_detail_point .row_job_detail_point ul li svg {
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+}
+.jobdetails .row-1 .col-a .job_requirements {
+  margin-bottom: 15px;
+}
+.jobdetails .row-1 .col-a .job_requirements .job_requirements_points ul li {
+  line-height: 1.2;
+  padding: 5px 0;
+}
+.jobdetails
+  .row-1
+  .col-a
+  .job_requirements
+  .job_requirements_points
+  ul
+  li
+  span {
+  font-weight: 600;
+}
+
+.jobdetails .row-1 .col-a .job_description {
+  margin-bottom: 15px;
+}
+.jobdetails .row-1 .col-a .job_description p {
+  margin-bottom: 5px;
+}
+.jobdetails .row-1 .col-a .job_description ul li {
+  line-height: 1.2;
+  padding: 5px 0;
+}
+.jobdetails .row-1 .col-a .job_description ul li span {
+  font-weight: 600;
+}
+.jobdetails .row-1 .col-b {
+  margin: 15px 0;
+}
+.jobdetails .row-1 .col-b .apply_button {
+  background-color: var(--white);
+  box-shadow: 1px 2px 20px 2px #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+.jobdetails .row-1 .col-b .apply_button a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 13px 31px;
+  text-transform: uppercase;
+  color: var(--white);
+  border-radius: 4px;
+  font-size: 14px;
+}
+.jobdetails .row-1 .col-b .apply_button a:not(:last-child) {
+  margin-bottom: 25px;
+}
+.jobdetails .row-1 .col-b .apply_button a.applynow_btn {
+  background-color: var(--main-color);
+}
+
+.jobdetails .row-1 .col-b .apply_button a.printjob_btn {
+  background-color: #008000;
+}
+.jobdetails .row-1 .col-b .apply_button a.applynow_btn:hover {
+  background-color: var(--main-light-color);
+}
+
+@media all and (min-width: 981px) {
+  .jobdetails .row-1 .col-a .heading h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+.coloumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.make-flex {
+  padding: 2rem;
+  display: flex;
+  justify-content: start;
+  gap: 20%;
+  background: #e1e1e1;
+}
+
+.make-flex-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.make-flex-box ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.make-flex-box ul li {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  gap: 0.3125rem;
+  color: black;
+  
+  align-items: center;
+}
+.make-flex-box ul li span{
+  color: #333333
+}
+
+.job_requirements_points ul{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.job_description div p{
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+.make-flex{
+  gap: 10%;
+  padding: 10px 5px;
+}
+
+.make-flex-box li svg{
+  display: flex;
+  justify-content: start;
+  width: 30px;
+}
+ }
+
+ @media (max-width : 950px) {
+  .apply_button{
+    margin: 0;
+  }
+  
+ }

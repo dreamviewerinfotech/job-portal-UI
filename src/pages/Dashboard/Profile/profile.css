@@ -1,0 +1,23 @@
+.myprofile {
+  margin-bottom: 30px;
+  background-color: var(--white);
+  outline-offset: none!important;
+  outline: none!important;
+  outline-width: 0px!important;
+  /* box-shadow: 0px 0px 40px 0px rgba(132, 144, 255, 0.2); */
+}
+.myprofile .row-1 .col {
+  padding: 0;
+}
+.myprofile .row-1 .col .form_details .row-2 .col {
+  padding: 0 15px;
+}
+.myprofile .form_details .row-2 .col p.id {
+  color: var(--main-color);
+}
+.myprofile .form_details .row-2 .col p.active {
+  color: #54a75f;
+}
+.myprofile .form_details .row-2 .col p.deactivate {
+  color: #dc2626;
+}

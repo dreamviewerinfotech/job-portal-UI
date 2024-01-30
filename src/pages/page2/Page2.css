@@ -1,0 +1,66 @@
+.page2 {
+
+  background: #453446;
+  
+}
+
+.page2 h5 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  
+}
+.page2 p {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+ color: #666666;
+}
+.btn {
+  display: flex;
+  min-width: 350px;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  /* width: 500px; */
+  margin: 0;
+  padding: 15px 22px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.btn input {
+    border: none;
+    margin: 0;
+    padding: 10px 0;
+    color: #666666;
+}
+.btn button {
+    background: #4a4af0;
+    padding: 15px;
+    /* width: 150px; */
+    border: none;
+    border-radius: 11px;
+    color: white;
+   
+}
+
+@media (max-width:800px) {
+
+ .page2 div{
+  width: 100%;
+  gap: 10px;
+ }
+ .page2 h5, .page2 p{
+  text-align: center;
+ }
+  
+ .page2 {
+ 
+  gap: 0px;
+ }
+  
+}
+

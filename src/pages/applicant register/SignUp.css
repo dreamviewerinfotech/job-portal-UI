@@ -1,0 +1,180 @@
+.container-em {
+   max-width: 760px;
+   margin: auto;
+   border: 0.5px solid #666666 ;
+   padding: 20px;
+   margin-top: 50px;
+  }
+  
+.employer h1{
+
+  FONT-FAMILY: RUBIK,
+FONT-SIZE: 38PX,
+FONT-WEIGHT: 300,
+LINE-HEIGHT: 50PX,
+TEXT-DECORATION: NONE SOLID RGB(51, 51, 51),
+TEXT-ALIGN: LEFT,
+TEXT-TRANSFORM: CAPITALIZE,
+WORD-SPACING: 0PX
+
+  
+
+}
+
+.employer {
+  border-radius: 10px;
+}
+.employer p{
+  color: #333333;,
+  fontFamily: 'RUBIK',
+    fontSize: '16px',
+    lineHeight: '26px',
+    textDecoration: 'none solid rgb(51, 51, 51)',
+    textAlign: 'left',
+    wordSpacing: '0px',
+    backgroundColor: '#FFFFFF',
+    backgroundPosition: '0% 0%',
+    color: '#333333',
+    height: '26px',
+    width: '349.2px',
+    position: 'relative',
+    top: '0px',
+    bottom: '0px',
+    right: '0px',
+    left: '0px',
+    display: 'block',
+    transform: 'none',
+    transition: 'all 0s ease 0s',
+    outline: 'rgb(255, 0, 0) dashed 0.8px',
+    boxSizing: 'border-box',
+}
+/* input{
+  box-shadow: rgba(201, 200, 200, 0.91)
+} */
+
+  
+ .employer .form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+ .employer .fullwidth {
+    grid-column: span 2;
+  }
+  
+ .employer .submit {
+    grid-column: 2;
+    background-color: #000080;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+ /* .employer select{
+    font-family: Rubik;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    outline: none;
+    color: grey;
+    border: 1px solid grey;
+    /* padding: 5px 10px; */
+    /* border-radius: 5px; */
+    /* font-size: 15px; */
+/* } */ */
+  
+  /* input,
+  textarea {
+    width: 100%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  /* .employer input , .employer select{
+font-family: RUBIK;
+font-size: 14px;
+font-weight: 500;
+line-height: 35px;
+text-decoration: none solid rgb(128, 128, 128);
+word-spacing: 0px;
+
+background-color: #FFFFFF;
+background-position: 0% 0%;
+color: #808080;
+
+height: 48px;
+width: 349.2px;
+border: 1px solid #040382;
+margin: 0 0 18px 0;
+padding: 6px 12px 6px 12px;
+max-width: 100%;
+
+display: block;
+
+cursor: text;
+
+transform: none;
+transition: box-shadow 0.2s ease 0s;
+outline: rgb(128, 128, 128) none 0px;
+box-sizing: border-box;
+box-shadow: rgba(201, 200, 200, 0.91) 0px 2px 4px 0px;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+
+  } */
+    
+  /* input,
+  textarea {
+    width: 100%;
+    padding: 15px 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  } */
+  
+  /* Optional: Add additional styling for form elements, such as borders, background, etc. */
+  
+  /* Add styling for focused input fields */
+  input:focus {
+    outline: none;
+    /* border-color: dodgerblue; */
+  }
+/*   
+  .select-dropdown,
+.input-text {
+ 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+} */
+
+
+option{
+    color: grey;
+}
+.email{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.employer image{
+  margin-bottom: 0;
+}
+.employer input{
+/* line-height: 0; */
+}
+@media (max-width:750px) {
+  .employer .form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  
+}

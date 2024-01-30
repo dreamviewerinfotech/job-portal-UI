@@ -1,0 +1,104 @@
+.historycard {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: #f8fafc;
+  box-shadow: 0px 0px 40px 0px rgb(132 144 255 / 20%);
+}
+
+.historycard .card-image {
+  max-width: 70px;
+  margin: auto auto 15px;
+}
+
+.historycard .card-image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #000080;
+}
+.historycard .card-details {
+  margin-left: 10px;
+  width: 100%;
+}
+
+.historycard .card-details h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+.historycard .card-details h3 span {
+  /* color: #54a75f;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #dcfce7;
+  line-height: 0; */
+}
+.historycard .card-details h3 span.pending {
+  /* color: #dc2626;
+  background-color: #ecc3c3; */
+}
+
+.historycard .card-details h4 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 0.5;
+}
+
+.historycard .card-details .job-posting-footer ul {
+  margin-top: 15px;
+  list-style: none;
+}
+
+.historycard .card-details .job-posting-footer ul li {
+  display: inline-block;
+  color: #777;
+  margin: 5px 15px 5px 0;
+}
+
+.historycard .card-details .job-posting-footer ul li svg {
+  position: relative;
+  top: 2px;
+  margin-right: 3px;
+  fill: #000080;
+}
+
+@media all and (min-width: 576px) {
+  .historycard{
+    flex-direction: row;
+  }
+  .historycard .card-image {
+    margin: 0 15px 0 0;
+  }
+}
+
+/* .historycard .job-listing-btns ul {
+  list-style: none;
+}
+
+.historycard .job-listing-btns ul li {
+  display: inline-block;
+  color: #fff;
+  margin-bottom: 20px;
+  margin-right: 4px;
+}
+
+.historycard .job-listing-btns ul li svg {
+  fill: white;
+}
+
+.historycard .job-listing-btns ul li a {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  padding: 8px 18px;
+  background: #000080;
+  border-radius: 43px;
+  overflow: hidden;
+  font-size: 13px;
+} */

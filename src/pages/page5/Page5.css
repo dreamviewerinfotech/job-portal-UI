@@ -1,0 +1,50 @@
+.page5-comp {
+  background: #dcdce2;
+  /* width: 100%; */
+  padding: 30px;
+}
+.page5flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+  align-items: center;
+  background: #dcdce2;
+}
+.page5-comp-box {
+  width: 300px;
+  /* background: #d9a0a0; */
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px 10px;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.page5-comp-box:hover {
+  background: red;
+  scale: 1.1;
+}
+.page5-comp-box img {
+  height: 150px;
+}
+
+.page5-comp .first {
+  color: #666666;
+}
+.page5-comp .second {
+  color: black;
+  font-weight: 800;
+}
+.page5-comp .third {
+  color: black;
+  font-size: 15px;
+  font-weight: 100;
+}
+.page5-comp .forth {
+  color: blue;
+}

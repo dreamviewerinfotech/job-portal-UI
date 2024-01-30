@@ -1,0 +1,83 @@
+.page4_com {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  background: #000080;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px grey;
+  margin-bottom: 45px;
+  transition: ease-out 0.5s;
+}
+
+.page4_com:hover {
+  scale: 1.1;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+.page4 {
+  background: #dcdce2;
+}
+
+.page4 h5 {
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  padding: 25px;
+}
+
+.overlay {
+  background: rgb(151, 151, 151, 0.6);
+}
+
+.top-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.top-box h5 {
+  color: black;
+  font-size: 2.5vw;
+  letter-spacing: 2px;
+}
+.page4 p {
+  margin: 0;
+  padding: 0 25px;
+
+  font-size: 15px;
+
+  color: #666666;
+}
+.box {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url("https://images.search.yahoo.com/search/images;_ylt=Awrg0GRNwa9lAOMLh9FXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=job+images&fr2=piv-web&type=E210US885G0&fr=mcafee#id=64&iurl=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp8746134.jpg&action=click");
+  /* flex-direction: column; */
+  padding: 0px 40px 40px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+@media (max-width: 800px) {
+  .top-box h5 {
+    font-size: 1.7rem;
+  }
+}
+/* @media (max-width : 400px){
+  .page4_com{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-right: 3px;
+    align-items: center;
+    width: 170px;
+    background: #000080;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px grey;
+    margin-bottom: 45px;
+    transition: ease-out 0.5s;
+  }
+} */
